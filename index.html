@@ -33,50 +33,51 @@
   html { scroll-behavior:smooth; }
   body { font-family:'Rubik',sans-serif; font-weight:400; background:#F8F6F1; color:#282624; -webkit-font-smoothing:antialiased; }
   .wrap { max-width:640px; margin:0 auto; }
-  section { padding:64px 34px; }
+  section { padding:58px 34px; }
   .hero { min-height:100vh; min-height:100svh; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:34px; }
-  .hero h1 { font-family:'Suez One',serif; font-weight:400; font-size:40px; line-height:1.45; }
-  .hero .sub { font-size:19px; color:#55514B; line-height:1.85; margin-top:26px; }
-  .track { width:130px; height:3px; background:#E0DACF; border-radius:3px; margin:46px auto 0; overflow:hidden; }
+  .hero h1 { font-family:'Suez One',serif; font-weight:400; font-size:40px; line-height:1.35; }
+  .hero .sub { font-size:19px; color:#55514B; line-height:1.6; margin-top:24px; }
+  .track { width:130px; height:3px; background:#E0DACF; border-radius:3px; margin:42px auto 0; overflow:hidden; }
   .track i { display:block; height:100%; background:#7C8B71; transform:scaleX(0); transform-origin:right center; animation:fill 10s linear forwards; }
   @keyframes fill { to { transform:scaleX(1); } }
-  .after { margin-top:30px; opacity:0; animation:appear 1.6s ease-out 10s forwards; }
+  .after { margin-top:28px; opacity:0; animation:appear 1.6s ease-out 10s forwards; }
   .after span { font-size:17px; color:#55514B; }
-  .after a { display:inline-block; margin-top:12px; font-size:21px; font-weight:500; color:#6B7A61; text-decoration:none; border-bottom:2px solid #B6C0AC; padding-bottom:5px; }
+  .after a { display:inline-block; margin-top:10px; font-size:21px; font-weight:500; color:#6B7A61; text-decoration:none; border-bottom:2px solid #B6C0AC; padding-bottom:5px; }
   @keyframes appear { to { opacity:1; } }
-  h2 { font-family:'Suez One',serif; font-weight:400; font-size:27px; line-height:1.4; margin:0; }
-  p { font-size:19px; line-height:1.7; margin-bottom:14px; }
+  h2 { font-family:'Suez One',serif; font-weight:400; font-size:27px; line-height:1.3; margin:0; }
+  p { font-size:19px; line-height:1.45; margin-bottom:15px; }
   .muted { color:#55514B; }
+  .em { color:#282624; font-weight:500; }
   .rule { height:1px; background:#DED8CD; }
   .linen { background:#EFEAE2; }
   .sand { background:#D9D2C7; }
-  .hrow { display:flex; align-items:center; justify-content:space-between; gap:20px; margin-bottom:26px; }
+  .hrow { display:flex; align-items:center; justify-content:space-between; gap:20px; margin-bottom:22px; }
   .avatar { width:120px; height:120px; border-radius:50%; object-fit:cover; flex:none; }
   .thumb { width:176px; height:120px; border-radius:16px; object-fit:cover; flex:none; }
-  .load { margin:14px 0 18px; }
+  .load { margin:12px 0 16px; }
   .load span { display:block; color:#55514B; }
-  .load span:nth-child(1){ font-size:20px; margin:0 0 12px 0; }
-  .load span:nth-child(2){ font-size:19px; margin:0 46px 9px 0; }
-  .load span:nth-child(3){ font-size:18px; margin:0 92px 6px 0; }
+  .load span:nth-child(1){ font-size:20px; margin:0 0 10px 0; }
+  .load span:nth-child(2){ font-size:19px; margin:0 46px 8px 0; }
+  .load span:nth-child(3){ font-size:18px; margin:0 92px 5px 0; }
   .load span:nth-child(4){ font-size:17px; margin:0 138px 0 0; }
   .dark { background:#2F2F2F; text-align:center; }
-  .dark .hand { font-family:'Gveret Levin',cursive; font-size:50px; line-height:1.5; color:#F8F6F1; }
-  .dark .rest { font-size:21px; line-height:1.75; color:#DCD5C9; margin:22px 0 0; }
-  .tcard { background:#F8F6F1; border-radius:20px; padding:26px 26px; position:relative; }
-  .tcard p { font-size:19px; line-height:1.75; margin:0; }
+  .dark .hand { font-family:'Gveret Levin',cursive; font-size:50px; line-height:1.4; color:#F8F6F1; }
+  .dark .rest { font-size:21px; line-height:1.5; color:#DCD5C9; margin:18px 0 0; }
+  .tcard { background:#F8F6F1; border-radius:20px; padding:24px 26px; position:relative; }
+  .tcard p { font-size:19px; line-height:1.5; margin:0; }
   .tcard:after { content:''; position:absolute; bottom:-13px; right:40px; width:0; height:0; border:13px solid transparent; border-bottom:0; border-top-color:#F8F6F1; }
-  .who { font-size:15px; color:#4A463F; margin:26px 46px 40px 0; }
+  .who { font-size:15px; color:#4A463F; margin:24px 46px 34px 0; }
   .who:last-child { margin-bottom:0; }
-  .cta { display:inline-block; background:#7C8B71; color:#F8F6F1; text-decoration:none; font-size:19px; font-weight:500; padding:18px 46px; border-radius:26px; margin-top:12px; }
-  .alt { display:block; margin-top:22px; font-size:16px; color:#55514B; line-height:1.8; }
+  .cta { display:inline-block; background:#7C8B71; color:#F8F6F1; text-decoration:none; font-size:19px; font-weight:500; padding:18px 46px; border-radius:26px; margin-top:10px; }
+  .alt { display:block; margin-top:20px; font-size:16px; color:#55514B; line-height:1.6; }
   .alt a { color:#55514B; }
-  footer { background:#EFEAE2; padding:36px 34px; direction:ltr; text-align:left; }
-  footer p { font-size:14px; line-height:1.75; color:#55514B; margin:0; }
+  footer { background:#EFEAE2; padding:32px 34px; direction:ltr; text-align:left; }
+  footer p { font-size:14px; line-height:1.6; color:#55514B; margin:0; }
   footer a { color:#55514B; }
   @media (max-width:600px){
     .hero h1 { font-size:33px; }
     .hero .sub { font-size:18px; }
-    section { padding:52px 22px; }
+    section { padding:46px 22px; }
     h2 { font-size:23px; }
     p { font-size:18px; }
     .avatar { width:96px; height:96px; }
@@ -86,7 +87,7 @@
     .load span:nth-child(4){ margin-right:90px; }
     .dark .hand { font-size:38px; }
     .dark .rest { font-size:19px; }
-    .tcard { padding:22px 20px; }
+    .tcard { padding:20px 20px; }
     .tcard p { font-size:18px; }
   }
   @media (prefers-reduced-motion: reduce){
@@ -127,8 +128,9 @@
   <p class="muted">מעל עשרים שנה של ריצה.</p>
   <p>ובמקביל, כבר יותר משלושים שנה, אני בתוך תהליכים של הקשבה פנימית והתפתחות.</p>
   <p class="muted">עצרתי המון פעמים. נשמתי, הרגשתי, התחברתי – ואז חזרתי לרוץ. כל פעם מחדש.</p>
-  <p>עד שהבנתי מה קרה שם: הריצה עצמה הייתה דרך לא לפגוש את עצמי.</p>
-  <p>ושעצירה היא לא הפסקה מההתקדמות – היא מה שמאפשר להתקדם בפחות מאמץ, ולדעת לאן.</p>
+  <p>עד שהבנתי מה קרה שם:</p>
+  <p>הריצה עצמה הייתה דרך לא לפגוש את עצמי.</p>
+  <p class="muted">בהדרגה הבנתי שעצירה היא לא הפסקה מההתקדמות –<br><span class="em">היא מה שמאפשר להתקדם בפחות מאמץ, ולדעת לאן.</span></p>
   <p>היום אני מנחה סדנאות לאנשים שרצים.</p>
 </section>
 <section class="linen">
@@ -156,7 +158,7 @@
   <div class="who">שבועיים אחרי הסדנה</div>
 </section>
 <section>
-  <h2 style="margin-bottom:20px">הסדנה הקרובה</h2>
+  <h2 style="margin-bottom:18px">הסדנה הקרובה</h2>
   <p class="muted">ספטמבר 2026 · קבוצה קטנה<br>הנושא משתנה כל חודש. הפורמט לא.</p>
   <p>רוצה שאעדכן אותך כשנפתחת ההרשמה?<br>הודעה אחת כשיש סדנה. לא יותר.</p>
   <a class="cta" href="https://wa.me/972524565114?text=היי שיר, אשמח לשמוע על הסדנה הקרובה">עדכני אותי בוואטסאפ</a>
